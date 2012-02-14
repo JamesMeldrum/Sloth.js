@@ -1,0 +1,44 @@
+/* 
+Sloth.
+Author: James Meldrum
+Start date: 22/1/2012
+Desc: Styles for sloth image carousel
+ */
+ 
+ div.sloth{
+ 	width: 100%;
+	height: 100%;
+	background: black url('loading.gif') no-repeat center center;
+	overflow: hidden;
+ }
+ 
+ div.sloth_left_button{
+ 	z-index:20;
+ 	position:absolute;
+ 	width:78px;
+ 	height:100px;
+	margin-top:-50px;
+	top:50%;
+	left:0px;
+	background:url('http://127.0.0.1:8000/OJTest/static/js/sloth/left-arrow.png');
+ }
+ 
+ div.sloth_right_button{
+ 	z-index:20;
+ 	position:absolute;
+ 	width:78px;
+ 	height:100px;
+ 	top:50%;
+ 	margin-top:-50px;
+ 	right:0px;
+ 	background:url('http://127.0.0.1:8000/OJTest/static/js/sloth/right-arrow.png');
+ }
+ 
+ div.sloth_right_button:hover{
+ 	cursor:pointer;
+ }
+ 
+ 
+ div.sloth_left_button:hover{
+ 	cursor:pointer;
+ }
