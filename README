@@ -1,1 +1,10 @@
-bLAHBlah
+An OS image gallery in Javascript and HTML5.
+
+Directions for use:
+
+1) Add the sloth class to your page
+2) Set its style
+3) Call slothinit
+
+Sloth will rescale all images
+Options not yet implemented, if the project gets attention I will
